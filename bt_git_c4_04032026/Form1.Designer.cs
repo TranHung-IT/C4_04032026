@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -44,19 +44,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên đăng nhập";
             // 
-            // txtUserName
+            // textboxusername
             // 
-            this.txtUserName.Location = new System.Drawing.Point(217, 66);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(238, 22);
-            this.txtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(217, 66);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(238, 22);
+            this.textboxusername.TabIndex = 1;
             // 
-            // txtpassword
+            // textboxmatkhau
             // 
-            this.txtpassword.Location = new System.Drawing.Point(217, 123);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(238, 22);
-            this.txtpassword.TabIndex = 3;
+            this.textboxmatkhau.Location = new System.Drawing.Point(217, 123);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(238, 22);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // label2
             // 
@@ -82,9 +82,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(572, 317);
             this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.txtpassword);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -96,8 +96,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
-        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.TextBox textboxusername;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnlogin;
     }
